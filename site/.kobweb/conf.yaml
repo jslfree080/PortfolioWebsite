@@ -1,0 +1,14 @@
+site:
+  title: "LandingPage"
+
+server:
+  files:
+    dev:
+      contentRoot: "build/processedResources/js/main/public"
+      script: "build/developmentExecutable/jslfree080.js"
+      api: "build/libs/jslfree080.jar"
+    prod:
+      script: "build/distributions/jslfree080.js"
+      siteRoot: ".kobweb/site"
+
+  port: 8080
