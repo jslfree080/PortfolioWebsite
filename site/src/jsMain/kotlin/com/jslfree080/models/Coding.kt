@@ -57,11 +57,11 @@ enum class Coding(
         imageDesc = "",
         title = "Kotlin",
         subtitle = listOf(
-            "",
+            "PortfolioWebsite",
             "bamscope"
         ),
         site = listOf(
-            "",
+            "https://github.com/jslfree080/PortfolioWebsite",
             "https://github.com/jslfree080/bamscope"
         ),
         description = listOf(
