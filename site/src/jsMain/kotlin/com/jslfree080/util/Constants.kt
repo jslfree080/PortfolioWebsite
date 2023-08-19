@@ -1,7 +1,7 @@
 package com.jslfree080.util
 
 object Constants {
-    const val THIS_SITE = "http://localhost:8080/"
+    const val THIS_SITE = "https://jungsoo-lee-m-sc.onrender.com/"
     const val SECTION_WIDTH = 1920
     const val FONT_FAMILY = "Roboto"
 
