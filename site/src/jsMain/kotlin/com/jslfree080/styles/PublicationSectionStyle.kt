@@ -1,0 +1,81 @@
+package com.jslfree080.styles
+
+import com.jslfree080.models.Theme
+import com.varabyte.kobweb.compose.css.CSSTransition
+import com.varabyte.kobweb.compose.ui.Modifier
+import com.varabyte.kobweb.compose.ui.graphics.Colors
+import com.varabyte.kobweb.compose.ui.modifiers.backgroundColor
+import com.varabyte.kobweb.compose.ui.modifiers.border
+import com.varabyte.kobweb.compose.ui.modifiers.color
+import com.varabyte.kobweb.compose.ui.modifiers.transition
+import com.varabyte.kobweb.silk.components.style.ComponentStyle
+import com.varabyte.kobweb.silk.components.style.anyLink
+import com.varabyte.kobweb.silk.components.style.hover
+import org.jetbrains.compose.web.css.LineStyle
+import org.jetbrains.compose.web.css.ms
+import org.jetbrains.compose.web.css.px
+
+val NavigationJournalStyle by ComponentStyle {
+    base {
+        Modifier
+            .color(Theme.Secondary.rgb)
+            .transition(CSSTransition(property = "color", duration = 200.ms))
+    }
+    anyLink {
+        Modifier
+            .color(Theme.Secondary.rgb)
+    }
+    hover {
+        Modifier
+            .color(Theme.White.rgb)
+    }
+}
+
+val PublicationCardStyle by ComponentStyle {
+    base {
+        Modifier
+            .border(
+                width = 2.px,
+                style = LineStyle.Solid,
+                color = Theme.LighterGray.rgb
+            )
+            .backgroundColor(Colors.White)
+            .transition(
+                CSSTransition(property = "border", duration = 200.ms),
+                CSSTransition(property = "background", duration = 200.ms)
+            )
+    }
+    hover {
+        Modifier
+            .border(
+                width = 2.px,
+                style = LineStyle.Solid,
+                color = Theme.Primary.rgb
+            )
+            .backgroundColor(Theme.Primary.rgb)
+    }
+
+    cssRule(" > p") {
+        Modifier
+            .color(Theme.Secondary.rgb)
+            .transition(
+                CSSTransition(property = "color", duration = 200.ms)
+            )
+    }
+
+    cssRule(":hover > p") {
+        Modifier
+            .color(Colors.White)
+    }
+}
+
+val PublicationArrowIconStyle by ComponentStyle {
+    base {
+        Modifier
+            .color(Theme.Gray.rgb)
+            .transition(CSSTransition(property = "color", duration = 200.ms))
+    }
+    hover {
+        Modifier.color(Theme.Primary.rgb)
+    }
+}
