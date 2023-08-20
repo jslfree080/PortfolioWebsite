@@ -1,6 +1,6 @@
 package com.jslfree080.models
 
-import com.jslfree080.util.Constants.LOREM_IPSUM_LONG
+import com.jslfree080.util.Constants.THIS_SITE
 
 enum class Experience(
     val number: String,
@@ -9,7 +9,9 @@ enum class Experience(
     val explanation: List<String> = listOf(""),
     val affiliation: String,
     val dateFrom: String,
-    val dateTo: String
+    val dateTo: String,
+    val siteText: String = "",
+    val siteLink: String = ""
 ) {
     First(
         number = "01",
@@ -32,7 +34,9 @@ enum class Experience(
         ),
         affiliation = "Choi Laboratory | Korea University College of Medicine",
         dateFrom = "November 2021",
-        dateTo = "August 2022"
+        dateTo = "August 2022",
+        siteText = "→ Have a look at my open seminar poster",
+        siteLink = THIS_SITE + "ess-poster.pdf"
     ),
     Third(
         number = "03",

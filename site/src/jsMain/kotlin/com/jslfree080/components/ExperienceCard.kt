@@ -4,9 +4,11 @@ import androidx.compose.runtime.Composable
 import com.jslfree080.models.Experience
 import com.jslfree080.models.Theme
 import com.jslfree080.styles.CircleStyle
+import com.jslfree080.styles.NavigationExperience
 import com.jslfree080.util.Constants.FONT_FAMILY
 import com.varabyte.kobweb.compose.css.CSSTransition
 import com.varabyte.kobweb.compose.css.FontWeight
+import com.varabyte.kobweb.compose.css.TextDecorationLine
 import com.varabyte.kobweb.compose.foundation.layout.Arrangement
 import com.varabyte.kobweb.compose.foundation.layout.Box
 import com.varabyte.kobweb.compose.foundation.layout.Column
@@ -16,8 +18,10 @@ import com.varabyte.kobweb.compose.ui.Modifier
 import com.varabyte.kobweb.compose.ui.graphics.Colors
 import com.varabyte.kobweb.compose.ui.modifiers.*
 import com.varabyte.kobweb.compose.ui.toAttrs
+import com.varabyte.kobweb.navigation.OpenLinkStrategy
 import com.varabyte.kobweb.silk.components.layout.SimpleGrid
 import com.varabyte.kobweb.silk.components.layout.numColumns
+import com.varabyte.kobweb.silk.components.navigation.Link
 import com.varabyte.kobweb.silk.components.style.breakpoint.Breakpoint
 import com.varabyte.kobweb.silk.components.style.toModifier
 import org.jetbrains.compose.web.css.*
@@ -42,7 +46,9 @@ fun experienceCard(
         experienceDescription(
             active = active,
             description = experience.description,
-            explanation = experience.explanation
+            explanation = experience.explanation,
+            siteText = experience.siteText,
+            siteLink = experience.siteLink
         )
         experienceDetails(
             breakpoint = breakpoint,
@@ -57,7 +63,9 @@ fun experienceCard(
 fun experienceDescription(
     active: Boolean,
     description: String,
-    explanation: List<String>
+    explanation: List<String>,
+    siteText: String,
+    siteLink: String
 ) {
     Box(
         modifier = Modifier
@@ -88,6 +96,15 @@ fun experienceDescription(
                     }
                 }
             }
+            P {}
+            Link(
+                modifier = NavigationExperience.toModifier()
+                    .fontWeight(FontWeight.Bold)
+                    .textDecorationLine(TextDecorationLine.None), // remove underline whenever we hover over one of those links,
+                text = siteText,
+                path = siteLink,
+                openExternalLinksStrategy = OpenLinkStrategy.IN_NEW_TAB
+            )
         }
     }
 }
