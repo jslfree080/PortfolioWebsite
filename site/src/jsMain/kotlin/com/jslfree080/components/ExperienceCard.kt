@@ -96,15 +96,17 @@ fun experienceDescription(
                     }
                 }
             }
-            P {}
-            Link(
-                modifier = NavigationExperience.toModifier()
-                    .fontWeight(FontWeight.Bold)
-                    .textDecorationLine(TextDecorationLine.None), // remove underline whenever we hover over one of those links,
-                text = siteText,
-                path = siteLink,
-                openExternalLinksStrategy = OpenLinkStrategy.IN_NEW_TAB
-            )
+            if ((siteText != "") && (siteLink != "")) {
+                P {}
+                Link(
+                    modifier = NavigationExperience.toModifier()
+                        .fontWeight(FontWeight.Bold)
+                        .textDecorationLine(TextDecorationLine.None), // remove underline whenever we hover over one of those links,
+                    text = siteText,
+                    path = siteLink,
+                    openExternalLinksStrategy = OpenLinkStrategy.IN_NEW_TAB
+                )
+            }
         }
     }
 }
