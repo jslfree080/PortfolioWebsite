@@ -49,7 +49,7 @@ enum class Section(
         id = "cv",
         title = "CV",
         subtitle = "Check it out",
-        path = THIS_SITE + "20230820_CV_JSL.pdf"
+        path = THIS_SITE + Document.Cv.filename
     ),
 
     // Below sections are unused
