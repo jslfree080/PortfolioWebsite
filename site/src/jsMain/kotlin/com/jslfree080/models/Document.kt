@@ -4,6 +4,6 @@ enum class Document(
     val filename: String
 ) {
     Cv(
-        filename = "20231025_CV_JSL.pdf"
+        filename = "20231120_CV_JSL.pdf"
     )
 }

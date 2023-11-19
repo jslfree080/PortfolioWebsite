@@ -120,7 +120,7 @@ fun mainText(breakpoint: Breakpoint) {
                     .color(Theme.Secondary.rgb)
                     .toAttrs()
             ) {
-                Text("Jungsoo Lee")
+                Text("Jung Soo Lee")
             }
             P(
                 attrs = Modifier

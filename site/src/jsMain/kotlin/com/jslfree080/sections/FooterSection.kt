@@ -81,7 +81,7 @@ fun footerContent() {
         P {
             Text("")
         }
-        Text("© Jungsoo Lee 2022-current. All rights reserved.")
+        Text("© Jung Soo Lee 2022-current. All rights reserved.")
     }
 }
 
