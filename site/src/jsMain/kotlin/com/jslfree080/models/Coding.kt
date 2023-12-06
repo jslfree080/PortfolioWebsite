@@ -21,13 +21,16 @@ enum class Coding(
         imageDesc = "",
         title = "Python",
         subtitle = listOf(
-            "GEOdownload.py"
+            "GEOdownload.py",
+            "dataPreProcessing.ipynb"
         ),
         site = listOf(
-            "https://github.com/jslfree080/JslCodes/blob/main/GEOdownload.py"
+            "https://github.com/jslfree080/JslCodes/blob/main/GEOdownload.py",
+            "https://github.com/jslfree080/dataPreProcessing/blob/main/src/main/python/dataPreProcessing.ipynb"
         ),
         description = listOf(
-            "I have created a simple Python script that automates the process of downloading supplementary files from GEO."
+            "I have created a simple Python script that automates the process of downloading supplementary files from GEO.",
+            "I compile notes on the fundamentals of data preprocessing in machine learning."
         )
     ),
     Bash(
