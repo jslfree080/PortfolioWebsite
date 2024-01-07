@@ -76,8 +76,17 @@ enum class Coding(
         icon = Res.Icon.javascript,
         imageDesc = "",
         title = "Javascript",
+        subtitle = listOf(
+            "My customized online watch",
+            "jslfree080/js"
+        ),
+        site = listOf(
+            "https://htmlpreview.github.io/?https://raw.githubusercontent.com/jslfree080/jslfree080/main/index.html",
+            "https://github.com/jslfree080/jslfree080/tree/main/js"
+        ),
         description = listOf(
-            "I am presently in the process of learning D3.js, a skill that will enable me to construct genomic tools featuring interactive data visualization in the future."
+            "I made a customized online watch inspired by the Rolex watch, using JavaScript classes that enable data parsing and calculation of text rotation.",
+            ""
         )
     )
 }
