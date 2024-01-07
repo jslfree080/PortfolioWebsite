@@ -86,7 +86,7 @@ enum class Coding(
         ),
         description = listOf(
             "I made a customized online watch inspired by the Rolex watch, using JavaScript classes that enable data parsing and calculation of text rotation.",
-            ""
+            "Source code for the above"
         )
     )
 }
