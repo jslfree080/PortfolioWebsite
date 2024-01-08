@@ -81,7 +81,7 @@ enum class Coding(
             "jslfree080/js"
         ),
         site = listOf(
-            "https://htmlpreview.github.io/?https://raw.githubusercontent.com/jslfree080/jslfree080/main/index.html",
+            "https://jslfree080.github.io/jslfree080/",
             "https://github.com/jslfree080/jslfree080/tree/main/js"
         ),
         description = listOf(
