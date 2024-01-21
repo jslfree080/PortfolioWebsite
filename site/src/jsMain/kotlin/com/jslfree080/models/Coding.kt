@@ -78,15 +78,15 @@ enum class Coding(
         title = "Javascript",
         subtitle = listOf(
             "My customized online watch",
-            "jslfree080/js"
+            "visual-review-algorithm"
         ),
         site = listOf(
             "https://jslfree080.github.io/jslfree080/",
-            "https://github.com/jslfree080/jslfree080/tree/main/js"
+            "https://jslfree080.github.io/visual-review-algorithm/"
         ),
         description = listOf(
             "I made a customized online watch inspired by the Rolex watch, using JavaScript classes that enable data parsing and calculation of text rotation.",
-            "Source code for the above"
+            "My customized blog with vanilla JavaScript"
         )
     )
 }
