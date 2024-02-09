@@ -10,49 +10,21 @@ enum class Coding(
     val site: List<String> = listOf(""),
     val description: List<String>
 ) {
-//    R(
-//        icon = Res.Icon.r,
-//        imageDesc = "",
-//        title = "R",
-//        description = listOf("Experience in analyzing high-throughput sequencing data using R.")
-//    ),
-    Python(
-        icon = Res.Icon.python,
+    Javascript(
+        icon = Res.Icon.javascript,
         imageDesc = "",
-        title = "Python",
+        title = "Javascript",
         subtitle = listOf(
-            "GEOdownload.py",
-            "dataPreProcessing.ipynb"
+            "My customized online watch",
+            "visual-review-algorithm"
         ),
         site = listOf(
-            "https://github.com/jslfree080/JslCodes/blob/main/GEOdownload.py",
-            "https://github.com/jslfree080/dataPreProcessing/blob/main/src/main/python/dataPreProcessing.ipynb"
+            "https://jslfree080.github.io/jslfree080/",
+            "https://jslfree080.github.io/visual-review-algorithm/"
         ),
         description = listOf(
-            "A simple Python script that automates the process of downloading supplementary files from GEO.",
-            "Notes on the fundamentals of data preprocessing in machine learning."
-        )
-    ),
-//    Bash(
-//        icon = Res.Icon.bash,
-//        imageDesc = "",
-//        title = "Bash",
-//        description = listOf(
-//            "Basic tasks using shell scripting and utilizing Git."
-//        )
-//    ),
-    Java(
-        icon = Res.Icon.java,
-        imageDesc = "",
-        title = "Java",
-        subtitle = listOf(
-            "VcfFormatParsedTxt.jar"
-        ),
-        site = listOf(
-            "https://github.com/jslfree080/JslCodes/blob/main/VcfFormatParsedTxt.jar"
-        ),
-        description = listOf(
-            "A command line tool that parses the FORMAT column of a VCF file and converts it into a TXT file."
+            "A customized online watch inspired by the Rolex watch.",
+            "My blog made with vanilla JavaScript (Need more update...)"
         )
     ),
     Kotlin(
@@ -72,21 +44,35 @@ enum class Coding(
             "A command line tool that employs samtools to extract reads from a BAM file. It then generates plots displaying stacked bases at a designated position on a chromosome, with each base represented in a distinct color. It is currently unmaintained."
         )
     ),
-    Javascript(
-        icon = Res.Icon.javascript,
+    Python(
+        icon = Res.Icon.python,
         imageDesc = "",
-        title = "Javascript",
+        title = "Python",
         subtitle = listOf(
-            "My customized online watch",
-            "visual-review-algorithm"
+            "GEOdownload.py",
+            "dataPreProcessing.ipynb"
         ),
         site = listOf(
-            "https://jslfree080.github.io/jslfree080/",
-            "https://jslfree080.github.io/visual-review-algorithm/"
+            "https://github.com/jslfree080/JslCodes/blob/main/GEOdownload.py",
+            "https://github.com/jslfree080/dataPreProcessing/blob/main/src/main/python/dataPreProcessing.ipynb"
         ),
         description = listOf(
-            "A customized online watch inspired by the Rolex watch.",
-            "My blog made with vanilla JavaScript (Need more update...)"
+            "A simple Python script that automates the process of downloading supplementary files from GEO.",
+            "Notes on the fundamentals of data preprocessing in machine learning."
+        )
+    ),
+    Java(
+        icon = Res.Icon.java,
+        imageDesc = "",
+        title = "Java",
+        subtitle = listOf(
+            "VcfFormatParsedTxt.jar"
+        ),
+        site = listOf(
+            "https://github.com/jslfree080/JslCodes/blob/main/VcfFormatParsedTxt.jar"
+        ),
+        description = listOf(
+            "A command line tool that parses the FORMAT column of a VCF file and converts it into a TXT file."
         )
     ),
     Rust(
@@ -96,5 +82,19 @@ enum class Coding(
         description = listOf(
             "Work in progress."
         )
-    )
+    ),
+//        R(
+//        icon = Res.Icon.r,
+//        imageDesc = "",
+//        title = "R",
+//        description = listOf("Experience in analyzing high-throughput sequencing data using R.")
+//    ),
+//        Bash(
+//        icon = Res.Icon.bash,
+//        imageDesc = "",
+//        title = "Bash",
+//        description = listOf(
+//            "Basic tasks using shell scripting and utilizing Git."
+//        )
+//    ),
 }
