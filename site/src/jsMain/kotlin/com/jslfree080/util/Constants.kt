@@ -42,6 +42,8 @@ object Res {
         const val java = "java-seeklogo.com.svg"
         const val kotlin = "kotlin-seeklogo.com.svg"
         const val javascript = "javascript-js-seeklogo.com.svg"
+        const val rust = "rust-seeklogo.com.svg"
+
         const val link = "link_icon.svg"
         const val user = "user_icon.svg"
         const val shield = "shield_icon.svg"

@@ -33,7 +33,7 @@ fun homePage() {
             experienceSection()
             codeSection()
             gallerySection()
-            publicationSection()
+            //publicationSection()
             contactSection()
             footerSection()
             //achievementsSection()

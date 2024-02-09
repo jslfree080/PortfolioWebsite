@@ -32,11 +32,11 @@ enum class Experience(
             "Inferring transcription factor activity",
             "Detecting recurrent gene fusions and structural variations"
         ),
-        affiliation = "Choi Laboratory | Korea University College of Medicine",
+        affiliation = "Korea University College of Medicine",
         dateFrom = "November 2021",
         dateTo = "August 2022",
-        siteText = "→ Have a look at my open seminar poster",
-        siteLink = THIS_SITE + "ess-poster.pdf"
+//        siteText = "→ Have a look at my open seminar poster",
+//        siteLink = THIS_SITE + "ess-poster.pdf"
     ),
     Third(
         number = "03",
@@ -49,7 +49,7 @@ enum class Experience(
             "Conducting pseudotime trajectory analysis",
             "Decomposing spatial transcriptomics using single-cell/nucleus data"
         ),
-        affiliation = "Choi Laboratory | Korea University College of Medicine",
+        affiliation = "Korea University College of Medicine",
         dateFrom = "November 2020",
         dateTo = "October 2021"
     )

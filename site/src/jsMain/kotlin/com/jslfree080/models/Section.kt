@@ -32,12 +32,6 @@ enum class Section(
         subtitle = "Figure",
         path = "#gallery"
     ),
-    Publication(
-        id = "publication",
-        title = "Publication",
-        subtitle = "Contribution",
-        path = "#publication"
-    ),
     Contact(
         id = "contact",
         title = "Contact",
@@ -45,14 +39,13 @@ enum class Section(
         path = "#contact"
     ),
 
+    // Below sections are unused
     Cv(
         id = "cv",
         title = "CV",
         subtitle = "Check it out",
         path = THIS_SITE + Document.Cv.filename
     ),
-
-    // Below sections are unused
     About(
         id = "about",
         title = "About me",
@@ -70,5 +63,11 @@ enum class Section(
         title = "Testimonial",
         subtitle = "Happy Customers",
         path = "#testimonial"
-    )
+    ),
+    Publication(
+        id = "publication",
+        title = "Publication",
+        subtitle = "Contribution",
+        path = "#publication"
+    ),
 }

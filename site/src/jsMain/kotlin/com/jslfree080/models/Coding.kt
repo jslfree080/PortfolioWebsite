@@ -10,12 +10,12 @@ enum class Coding(
     val site: List<String> = listOf(""),
     val description: List<String>
 ) {
-    R(
-        icon = Res.Icon.r,
-        imageDesc = "",
-        title = "R",
-        description = listOf("I have experience in analyzing high-throughput sequencing data using R. Additionally, I am passionate about data visualization within the R environment.")
-    ),
+//    R(
+//        icon = Res.Icon.r,
+//        imageDesc = "",
+//        title = "R",
+//        description = listOf("Experience in analyzing high-throughput sequencing data using R.")
+//    ),
     Python(
         icon = Res.Icon.python,
         imageDesc = "",
@@ -29,18 +29,18 @@ enum class Coding(
             "https://github.com/jslfree080/dataPreProcessing/blob/main/src/main/python/dataPreProcessing.ipynb"
         ),
         description = listOf(
-            "I have created a simple Python script that automates the process of downloading supplementary files from GEO.",
-            "I compile notes on the fundamentals of data preprocessing in machine learning."
+            "A simple Python script that automates the process of downloading supplementary files from GEO.",
+            "Notes on the fundamentals of data preprocessing in machine learning."
         )
     ),
-    Bash(
-        icon = Res.Icon.bash,
-        imageDesc = "",
-        title = "Bash",
-        description = listOf(
-            "I am capable of carrying out basic tasks using shell scripting and utilizing Git."
-        )
-    ),
+//    Bash(
+//        icon = Res.Icon.bash,
+//        imageDesc = "",
+//        title = "Bash",
+//        description = listOf(
+//            "Basic tasks using shell scripting and utilizing Git."
+//        )
+//    ),
     Java(
         icon = Res.Icon.java,
         imageDesc = "",
@@ -52,7 +52,7 @@ enum class Coding(
             "https://github.com/jslfree080/JslCodes/blob/main/VcfFormatParsedTxt.jar"
         ),
         description = listOf(
-            "I have developed a straightforward Java program that parses the FORMAT column of a VCF file and converts it into a TXT file."
+            "A command line tool that parses the FORMAT column of a VCF file and converts it into a TXT file."
         )
     ),
     Kotlin(
@@ -68,8 +68,8 @@ enum class Coding(
             "https://github.com/jslfree080/bamscope"
         ),
         description = listOf(
-            "I utilized Kotlin to build this website.",
-            "I have developed software using Kotlin that employs samtools to extract reads from a BAM file. It then generates plots displaying stacked bases at a designated position on a chromosome, with each base represented in a distinct color. Currently, I am in the process of addressing and fixing bugs in the software."
+            "Built this website using Kobweb framework.",
+            "A command line tool that employs samtools to extract reads from a BAM file. It then generates plots displaying stacked bases at a designated position on a chromosome, with each base represented in a distinct color. It is currently unmaintained."
         )
     ),
     Javascript(
@@ -85,8 +85,16 @@ enum class Coding(
             "https://jslfree080.github.io/visual-review-algorithm/"
         ),
         description = listOf(
-            "I made a customized online watch inspired by the Rolex watch, using JavaScript classes that enable data parsing and calculation of text rotation.",
-            "My customized blog with vanilla JavaScript"
+            "A customized online watch inspired by the Rolex watch.",
+            "My blog made with vanilla JavaScript (Need more update...)"
+        )
+    ),
+    Rust(
+        icon = Res.Icon.rust,
+        imageDesc = "",
+        title = "Rust",
+        description = listOf(
+            "Work in progress."
         )
     )
 }
