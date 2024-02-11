@@ -27,6 +27,20 @@ enum class Coding(
             "My blog made with vanilla JavaScript (Need more update...)"
         )
     ),
+    Rust(
+        icon = Res.Icon.rust,
+        imageDesc = "",
+        title = "Rust",
+        subtitle = listOf(
+            "toy_database"
+        ),
+        site = listOf(
+            "https://github.com/jslfree080/toy_database"
+        ),
+        description = listOf(
+            "A toy project to test the creation of REST API endpoints using a Rust framework."
+        )
+    ),
     Kotlin(
         icon = Res.Icon.kotlin,
         imageDesc = "",
@@ -73,14 +87,6 @@ enum class Coding(
         ),
         description = listOf(
             "A command line tool that parses the FORMAT column of a VCF file and converts it into a TXT file."
-        )
-    ),
-    Rust(
-        icon = Res.Icon.rust,
-        imageDesc = "",
-        title = "Rust",
-        description = listOf(
-            "Work in progress."
         )
     ),
 //        R(
