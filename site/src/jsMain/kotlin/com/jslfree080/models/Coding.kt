@@ -32,12 +32,15 @@ enum class Coding(
         imageDesc = "",
         title = "Rust",
         subtitle = listOf(
+            "interpack",
             "toy_database"
         ),
         site = listOf(
+            "https://github.com/jslfree080/interpack",
             "https://github.com/jslfree080/toy_database"
         ),
         description = listOf(
+            "Nucleotide Fasta encoder for compressing raw sequences into interpretable binary format (In progress)",
             "A toy project to test the creation of REST API endpoints using a Rust framework."
         )
     ),
