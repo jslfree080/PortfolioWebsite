@@ -15,16 +15,13 @@ enum class Coding(
         imageDesc = "",
         title = "Javascript",
         subtitle = listOf(
-            "My customized online watch",
-            "visual-review-algorithm"
+            "My customized online watch"
         ),
         site = listOf(
-            "https://jslfree080.github.io/jslfree080/",
-            "https://jslfree080.github.io/visual-review-algorithm/"
+            "https://jslfree080.github.io/jslfree080/"
         ),
         description = listOf(
-            "A customized online watch inspired by the Rolex watch.",
-            "My blog made with vanilla JavaScript (Need more update...)"
+            "A customized online watch inspired by the Rolex watch."
         )
     ),
     Rust(
@@ -32,16 +29,13 @@ enum class Coding(
         imageDesc = "",
         title = "Rust",
         subtitle = listOf(
-            "interpack",
-            "toy_database"
+            "interpack"
         ),
         site = listOf(
-            "https://github.com/jslfree080/interpack",
-            "https://github.com/jslfree080/toy_database"
+            "https://github.com/jslfree080/interpack"
         ),
         description = listOf(
-            "Nucleotide Fasta encoder for compressing raw sequences into interpretable binary format (In progress)",
-            "A toy project to test the creation of REST API endpoints using a Rust framework."
+            "Nucleotide Fasta encoder for compressing raw sequences into interpretable binary format (In progress)"
         )
     ),
     Kotlin(
