@@ -35,7 +35,7 @@ enum class Coding(
             "https://github.com/jslfree080/interpack"
         ),
         description = listOf(
-            "Nucleotide Fasta encoder for compressing raw sequences into interpretable binary format (In progress)"
+            "DNA FASTA encoder for compressing raw sequences into searchable binary format (extract nth subsequence using random access without index file)"
         )
     ),
     Kotlin(
